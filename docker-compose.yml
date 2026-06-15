@@ -5,7 +5,7 @@ services:
     container_name: web_app
 
     env_file:
-      - .env.example
+      - .env
 
     depends_on:
       db:
